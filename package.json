@@ -1,0 +1,21 @@
+{
+  "name": "reactApp",
+  "version": "0.0.1",
+  "description": "Firts ReactJSApp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maovares/reactFirtsApp.git"
+  },
+  "keywords": [
+    "ReactJS"
+  ],
+  "author": "Marcos Rodríguez Ovares",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/maovares/reactFirtsApp/issues"
+  }
+}
