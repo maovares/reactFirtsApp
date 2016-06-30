@@ -4,7 +4,7 @@
   "description": "Firts ReactJSApp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --hot"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,18 @@
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/maovares/reactFirtsApp/issues"
+  },
+  "dependencies": {
+    "webpack": "~1.13.1",
+    "webpack-dev-server": "~1.14.1",
+    "react": "~15.1.0",
+    "react-dom": "~15.1.0",
+    "babel-core": "~6.10.4",
+    "babel-preset-react": "~6.11.1",
+    "babel-preset-es2015": "~6.9.0"
+  },
+  "devDependencies": {
+    "babel-loader": "~6.2.4",
+    "babel-core": "~6.10.4"
   }
 }
